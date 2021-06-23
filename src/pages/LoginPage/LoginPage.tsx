@@ -137,7 +137,7 @@ const LoginPage:React.FC<LoginProps>  = (props:LoginProps)  =>{
         <div className="loginpage">
             <div className="loginpagebody">
                 <div className="login">
-                    {errormsg && <p style={{color:'red'}} >Invalid Authentication!!!</p>}
+                    {errormsg && <p style={{color:'red'}} >Invalid Credentials!!!</p>}
                     <form onSubmit={loginHandler}>
                         <TextField 
                             className="inputField"

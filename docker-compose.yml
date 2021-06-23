@@ -7,7 +7,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - "reactapp:/exercise/"
+      - "reactapp:/exercise"
 
 volumes:
   reactapp:
