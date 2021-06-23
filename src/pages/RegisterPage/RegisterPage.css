@@ -1,0 +1,39 @@
+.registerPage {
+  width: 30%;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+.registerPage__header {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.registerPage__body {
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registerPage__body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.registerPage__button {
+  margin-bottom: 20px !important;
+  width: 95% !important;
+}
+
+.registerPage__inputField {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  width: 95% !important;
+}
