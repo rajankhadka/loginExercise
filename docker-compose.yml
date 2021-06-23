@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  reactapp:
+    build: .
+    command: npm run start
+    container_name: reactapp
+    ports:
+      - 5000:5000
+    volumes:
+      - "reactapp:/exercise/"
+
+volumes:
+  reactapp:

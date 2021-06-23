@@ -96,6 +96,7 @@ const LoginPage:React.FC<LoginProps>  = (props:LoginProps)  =>{
                 }
             });
             let users = window.localStorage.getItem('data');
+            
             if(users){
                 if(typeof users === 'string'){
                     let data:Array<User> = JSON.parse(users);
@@ -113,6 +114,11 @@ const LoginPage:React.FC<LoginProps>  = (props:LoginProps)  =>{
                         props.userDataHandlerFalse();
                     }
                 }
+            }else{
+                console.log("false");
+                setErrormsg(true);
+                props.authenticationFalseHandler();
+                props.userDataHandlerFalse();
             }
 
         }else{
