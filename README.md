@@ -1,6 +1,6 @@
 ### [1] Github
 
-- [ui] https://github.com/rajankhadka/loginExercise
+- https://github.com/rajankhadka/loginExercise
 
 ### [2] netlify link
 
